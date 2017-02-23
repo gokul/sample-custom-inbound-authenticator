@@ -15,9 +15,9 @@
 * specific language governing permissions and limitations
 * under the License.
 */
-package custom.wso2.carbon.identity.inbound.authenticator.factory;
+package org.wso2.sample.inbound.authenticator.factory;
 
-import custom.wso2.carbon.identity.inbound.authenticator.message.CustomInboundResponse;
+import org.wso2.sample.inbound.authenticator.message.CustomInboundResponse;
 import org.apache.commons.lang.StringUtils;
 import org.wso2.carbon.identity.application.authentication.framework.inbound.HttpIdentityResponse;
 import org.wso2.carbon.identity.application.authentication.framework.inbound.HttpIdentityResponseFactory;

@@ -1,11 +1,11 @@
-package custom.wso2.carbon.identity.inbound.authenticator.internal;
+package org.wso2.sample.inbound.authenticator.internal;
 
 
-import custom.wso2.carbon.identity.inbound.authenticator.factory.CustomInboundIdentityResponseFactory;
-import custom.wso2.carbon.identity.inbound.authenticator.factory.CustomInboundRequestFactory;
-import custom.wso2.carbon.identity.inbound.authenticator.processor.CustomInboundRequestProcessor;
-import custom.wso2.carbon.identity.inbound.authenticator.util.CustomInboundAuthConfig;
-import custom.wso2.carbon.identity.inbound.authenticator.util.CustomInboundUtil;
+import org.wso2.sample.inbound.authenticator.factory.CustomInboundIdentityResponseFactory;
+import org.wso2.sample.inbound.authenticator.factory.CustomInboundRequestFactory;
+import org.wso2.sample.inbound.authenticator.processor.CustomInboundRequestProcessor;
+import org.wso2.sample.inbound.authenticator.util.CustomInboundAuthConfig;
+import org.wso2.sample.inbound.authenticator.util.CustomInboundUtil;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.osgi.service.component.ComponentContext;

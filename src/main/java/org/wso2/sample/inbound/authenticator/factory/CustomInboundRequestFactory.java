@@ -15,10 +15,10 @@
 * specific language governing permissions and limitations
 * under the License.
 */
-package custom.wso2.carbon.identity.inbound.authenticator.factory;
+package org.wso2.sample.inbound.authenticator.factory;
 
-import custom.wso2.carbon.identity.inbound.authenticator.message.CustomInboundRequest;
-import custom.wso2.carbon.identity.inbound.authenticator.util.CustomInboundConstants;
+import org.wso2.sample.inbound.authenticator.message.CustomInboundRequest;
+import org.wso2.sample.inbound.authenticator.util.CustomInboundConstants;
 import org.wso2.carbon.identity.application.authentication.framework.inbound.HttpIdentityRequestFactory;
 
 import javax.servlet.http.HttpServletRequest;

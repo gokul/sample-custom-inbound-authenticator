@@ -6,9 +6,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.wso2.identity.sample</groupId>
-    <artifactId>custom.wso2.carbon.identity.inbound</artifactId>
+    <artifactId>custom.inbound.authenticator</artifactId>
     <version>1.0.0</version>
-    <name>WSO2 Sample Custom Inbound Authenticator</name>
+    <name>WSO2 Sample Custom Inbound Authenticator for IS 5.3.0</name>
     <packaging>bundle</packaging>
 
     <dependencies>
@@ -150,11 +150,6 @@
                             org.apache.commons.logging; version="[1.2,2.0)",
                             org.apache.commons.lang; version="[2.6.0,3.0.0)",
                             org.joda.time;version="[2.4.1.wso2v1,3.0.0)",
-                            org.opensaml.common,
-                            org.opensaml.saml2.core.*,
-                            org.opensaml.xml,
-                            org.opensaml.xml.util,
-                            org.opensaml.xml.validation,
                             org.osgi.framework; version="[1.7.0, 2.0.0)",
                             org.osgi.service.component; version="[1.2.0, 2.0.0)",
                             org.osgi.service.http,

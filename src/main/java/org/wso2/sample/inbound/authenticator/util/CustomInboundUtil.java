@@ -1,4 +1,4 @@
-package custom.wso2.carbon.identity.inbound.authenticator.util;
+package org.wso2.sample.inbound.authenticator.util;
 
 import org.osgi.framework.BundleContext;
 import org.osgi.service.http.HttpService;

@@ -1,4 +1,4 @@
-package custom.wso2.carbon.identity.inbound.authenticator.message;
+package org.wso2.sample.inbound.authenticator.message;
 
 import org.wso2.carbon.identity.application.authentication.framework.inbound.FrameworkClientException;
 import org.wso2.carbon.identity.application.authentication.framework.inbound.IdentityRequest;

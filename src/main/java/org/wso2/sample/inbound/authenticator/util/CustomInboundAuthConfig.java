@@ -1,4 +1,4 @@
-package custom.wso2.carbon.identity.inbound.authenticator.util;
+package org.wso2.sample.inbound.authenticator.util;
 
 import org.wso2.carbon.identity.application.common.model.InboundProvisioningConnector;
 import org.wso2.carbon.identity.application.common.model.Property;

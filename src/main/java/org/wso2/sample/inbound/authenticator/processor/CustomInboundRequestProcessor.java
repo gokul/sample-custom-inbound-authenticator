@@ -1,10 +1,10 @@
-package custom.wso2.carbon.identity.inbound.authenticator.processor;
+package org.wso2.sample.inbound.authenticator.processor;
 
-import custom.wso2.carbon.identity.inbound.authenticator.message.CustomInboundRequest;
-import custom.wso2.carbon.identity.inbound.authenticator.message.CustomInboundResponse;
-import custom.wso2.carbon.identity.inbound.authenticator.util.CustomInboundAuthConfig;
-import custom.wso2.carbon.identity.inbound.authenticator.util.CustomInboundConstants;
-import custom.wso2.carbon.identity.inbound.authenticator.util.CustomInboundUtil;
+import org.wso2.sample.inbound.authenticator.message.CustomInboundRequest;
+import org.wso2.sample.inbound.authenticator.message.CustomInboundResponse;
+import org.wso2.sample.inbound.authenticator.util.CustomInboundAuthConfig;
+import org.wso2.sample.inbound.authenticator.util.CustomInboundConstants;
+import org.wso2.sample.inbound.authenticator.util.CustomInboundUtil;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.lang.StringUtils;
 import org.wso2.carbon.identity.application.authentication.framework.exception.FrameworkException;
