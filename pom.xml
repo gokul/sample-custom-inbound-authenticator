@@ -165,11 +165,11 @@
                             org.wso2.carbon.utils; version="[4.4.0, 5.0.0)",
                         </Import-Package>
                         <DynamicImport-Package>*</DynamicImport-Package>
-                        <Private-Package>custom.wso2.carbon.identity.inbound.authenticator.internal</Private-Package>
+                        <Private-Package>org.wso2.sample.inbound.authenticator.internal</Private-Package>
                         <Export-Package>
-                            !custom.wso2.carbon.identity.inbound.authenticator.internal,
-                            custom.wso2.carbon.identity.inbound.authenticator.*;
-                            version="1.0.0",
+                            !org.wso2.sample.inbound.authenticator.internal,
+                            org.wso2.sample.inbound.authenticator.*;
+                            version="1.0.0",git add
                         </Export-Package>
                     </instructions>
                 </configuration>
